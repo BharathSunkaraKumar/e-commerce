@@ -5,6 +5,7 @@ function App() {
     <div class="flex min-h-full flex-col bg-white">
       <Navbar/>
     </div>
+    
   )
 }
 
