@@ -10,7 +10,7 @@ export default function Navbar() {
           <div>
             <Link to='/' className='font-semibold text-xl'><i>E</i></Link>
           </div>
-          <div className='flex space-x-2'>
+          <div className='flex space-x-3'>
               <NavLink to='/' className={({isActive}) => isActive ? 'text-blue-500' : 'text-gray-600'} >Home</NavLink>
               <NavLink to='/products' className={({isActive}) => isActive ? 'text-blue-500' : 'text-gray-600'}>Products</NavLink>
               <NavLink to='/checkout' className={({isActive}) => isActive ? 'text-blue-500' : 'text-gray-600'}>Checkout</NavLink>
