@@ -12,7 +12,7 @@ export default function Carousel() {
     },[products.length])
     const currentProduct = products[current];
   return (
-    <div className=' px-2 py-2 mt-5 bg-neutral-100 rounded-xl'>
+    <div className=' px-2 py-2 mt-5 border rounded-xl'>
         <div className='relative h-80 w-full flex justify-center items-center'>
                 {products.length > 0 && <img className='h-full object-cover w-fit relative ' src={currentProduct.image} alt={currentProduct.title} />}
             
