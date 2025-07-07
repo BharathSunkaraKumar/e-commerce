@@ -11,7 +11,7 @@ export default function Home() {
             <h1 className='font-bold text-2xl tracking-tighter md:text-3xl'>Welcome to My Trendhut</h1>
             <p className='text-neutral-600'>Discover the latest products at the best prices.</p>
             <button>
-                <NavLink to='/products' className='bg-black text-white px-5 py-1 pb-2 rounded-3xl hover:bg-gray-800'>Browse All Products</NavLink>
+                <NavLink to='/products' className='bg-black text-white px-5 py-2 pb-3 rounded-3xl hover:bg-gray-800'>Browse All Products</NavLink>
             </button>
         </div>
         <div className='max-w-md space-y-4'>
