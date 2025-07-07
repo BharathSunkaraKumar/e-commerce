@@ -8,7 +8,7 @@ export default function Home() {
       <section className='rounded-2xl bg-neutral-100 py-8 sm:py-12'>
         <div className='flex flex-col md:flex-row justify-between items-center gap-8 sm:px-16'>
         <div className='max-w-md space-y-4'>
-            <h1 className='font-bold text-2xl tracking-tighter md:text-3xl'>Welcome to My Ecommerce</h1>
+            <h1 className='font-bold text-2xl tracking-tighter md:text-3xl'>Welcome to My Trendhut</h1>
             <p className='text-neutral-600'>Discover the latest products at the best prices.</p>
             <button>
                 <NavLink to='/products' className='bg-black text-white px-5 pb-2 pt-1 rounded-3xl hover:bg-gray-800'>Browse All Products</NavLink>
