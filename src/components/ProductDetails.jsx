@@ -55,7 +55,7 @@ export default function ProductDetails() {
                 <div>
                     <button
                     onClick={handleAddToCart}
-                    className='bg-black text-white px-3 pb-1 rounded-sm'
+                    className='bg-black text-white px-4 py-2 rounded-sm hover:bg-gray-900'
                     >Add To Cart</button>
                 </div>
             )
